@@ -42,6 +42,28 @@
 
 :root {
   --global--background--Color: #e9e9e0;
+  --global--border--Color: #333;
+}
+
+/* - IDs */
+
+#heading {
+  p {
+    font-size: clamp(3.5rem, 4.5rem, 5.5rem);
+    &::first-letter,
+    b {
+      font-size: 7rem;
+    }
+  }
+}
+
+#header {
+  width: 100vw;
+  border-top: 5px solid var(--global--border--Color);
+  border-bottom: 5px solid var(--global--border--Color);
+  font-size: clamp(1rem, 2rem, 3rem);
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* - Classes */
@@ -82,4 +104,10 @@
 html {
   font-size: 62.5%;
   background-color: var(--global--background--Color);
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
