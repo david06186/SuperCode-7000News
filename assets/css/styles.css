@@ -37,3 +37,49 @@
   src: url('/assets/fonts/CormorantGaramond-Bold') format('woff2');
   src: url('/assets/fonts/CormorantGaramond-Bold.ttf') format('truetype');
 }
+
+/* - Global Variables */
+
+:root {
+  --global--background--Color: #e9e9e0;
+}
+
+/* - Classes */
+
+.font--regular {
+  font-family: CormorantGaramond-Regular;
+}
+
+.font--italic {
+  font-family: CormorantGaramond-Italic;
+}
+
+.font--bold {
+  font-family: CormorantGaramond-Bold;
+}
+
+.capital-text {
+  text-transform: capitalize;
+}
+
+.to-upper-case {
+  text-transform: uppercase;
+}
+
+.fixed-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100vw;
+  display: table;
+  max-width: none;
+  height: 100vh;
+}
+
+/* - Type Selectors */
+
+html {
+  font-size: 62.5%;
+  background-color: var(--global--background--Color);
+}
