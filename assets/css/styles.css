@@ -10,3 +10,30 @@
   margin: 0;
   padding: 0;
 }
+
+/* - At-rules */
+
+@font-face {
+  font-family: 'CormorantGaramond-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 0% 200%;
+  src: url('/assets/fonts/CormorantGaramond-Regular.woff2') format('woff2');
+  src: url('/assets/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CormorantGaramond-Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 0% 200%;
+  src: url('/assets/fonts/CormorantGaramond-Italic.woff2') format('woff2');
+  src: url('/assets/fonts/CormorantGaramond-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CormorantGaramond-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 0% 200%;
+  src: url('/assets/fonts/CormorantGaramond-Bold') format('woff2');
+  src: url('/assets/fonts/CormorantGaramond-Bold.ttf') format('truetype');
+}
